@@ -1,294 +1,1205 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>www.EricSalazar.com</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="shortcut icon" href="/images/elogo.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="/images/hero2.jpeg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
     <nav class="navbar">
-        <a href="#" class="brand"> <img src="images/elogo.png" alt="">
-            <p>Eric <span style="color: #099747;">Salazar</span></p>
-        </a>
-        <div class="hamburger" onclick="toggleMenu()">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div class="menu">
-            <a href="#home">Home</a>
-            <a href="#skill">Skills</a>
-            <a href="#about">About</a>
-            <a href="#project">Project</a>
-            <a href="#contact">Contact</a>
-        </div>
+      <a href="#" class="brand">
+        <img src="images/elogo.png" alt="" />
+        <p>Eric <span style="color: #099747">Salazar</span></p>
+      </a>
+      <div class="hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="menu">
+        <a href="#home">Home</a>
+        <a href="#skill">Skills</a>
+        <a href="#about">About</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
     <div id="home" class="homepage">
-        <div class="home-contents">
-            <div class="h-title">
-                <h3>Hi Everyone</h3>
-                <h2>Im Erick Salazar</h2>
-                <p>Aspiring Frontend Developer</p>
-                <span><i style="padding: 2px; cursor: pointer;" class="bi bi-linkedin"></i> <i style="padding: 2px; cursor: pointer;" class="bi bi-facebook"></i> <i style="padding: 2px; cursor: pointer;" class="bi bi-github"></i></span>
-                <a href="/images/cv.png">Download CV</a>
-            </div>
-            <div class="h-hero">
-                <img src="/images/hero.png" alt="">
-            </div>
+      <div class="home-contents">
+        <div class="h-title">
+          <h3 id="h3-title">Hi Everyone</h3>
+          <h2 id="h2-title">Im Erick Salazar</h2>
+          <p id="p-title">Aspiring Frontend Developer</p>
+          <span
+            ><a id="a2" href="#"
+              ><i
+                style="padding: 4px; cursor: pointer; font-size: 35px"
+                class="bi bi-linkedin"
+              ></i
+            ></a>
+            <i
+              style="padding: 4px; cursor: pointer; font-size: 35px"
+              class="bi bi-facebook"
+            ></i>
+            <i
+              style="padding: 4px; cursor: pointer; font-size: 35px"
+              class="bi bi-github"
+            ></i
+          ></span>
+          <a
+            id="a"
+            href="/images/Eric_John_Salazar_Solinap_Resume.pdf"
+            target="_blank"
+            >Download CV</a
+          >
         </div>
+        <div class="h-hero">
+          <img src="/images/hero.png" alt="" />
+        </div>
+      </div>
     </div>
 
     <div id="about" class="skillpage">
-        <a href="#" class="s-title">
-            <h3>Interested on me? <i style="color: #099747;" class="bi bi-emoji-heart-eyes-fill"></i></h3>
-        </a>
-        <div class="skill-contents">
-            <div class="skill-title">
-                <p>I am an enthusiastic and driven IT student at Central Philippines State University, specializing in Web Development and Web design. With a strong foundation in programming languages like JavaScript, Php, Python, HTML, CSS-Bootstrap, React and also for Web Prototyping and Designing using Figma, Wix and WordPress. I am committed to building innovative and user-friendly solutions that solve real-world problems.</p>
-                <h3 style="padding: 25px; font-weight: 500; color: #FFFFFF; animation: show-title 5s linear;
-                animation-timeline: view();
-                animation-range: entry 0% cover 40%;">Let’s connect and share ideas about technology, development, and innovation <i style="color: #099747;" class="bi bi-rocket-takeoff"></i></h3>
-            </div>
+      <a href="#" class="s-title">
+        <h3>
+          Interested on me?
+          <i style="color: #099747" class="bi bi-emoji-heart-eyes-fill"></i>
+        </h3>
+      </a>
+      <div class="skill-contents">
+        <div class="skill-title">
+          <p>
+            I am an enthusiastic and driven IT student at Central Philippines
+            State University, specializing in Web Development and Web design.
+            With a strong foundation in programming languages like JavaScript,
+            Php, Python, HTML, CSS-Bootstrap, React and also for Web Prototyping
+            and Designing using Figma, Wix and WordPress. I am committed to
+            building innovative and user-friendly solutions that solve
+            real-world problems.
+          </p>
+          <h3
+            style="
+              padding: 25px;
+              font-weight: 500;
+              color: #ffffff;
+              animation: show-title 5s linear;
+              animation-timeline: view();
+              animation-range: entry 0% cover 40%;
+            "
+          >
+            Let’s connect and share ideas about technology, development, and
+            innovation
+            <i style="color: #099747" class="bi bi-rocket-takeoff"></i>
+          </h3>
         </div>
+      </div>
+    </div>
+
+    <div id="about" class="skillpage">
+      <a href="#" class="s-title">
+        <h3>
+          Experience
+          <i style="color: #099747" class="bi bi-emoji-heart-eyes-fill"></i>
+        </h3>
+      </a>
+      <div class="skill-contents">
+        <div class="skill-title">
+          <h2>
+            Freelance Web Developer & Designer, Web Developer & Designer (June
+            2025 - Present )
+          </h2>
+          <p style="padding-block: 10px">
+            Developed and maintained responsive web applications using PHP,
+            MySQL, HTML, Tailwind-CSS, Bootstrap, and JavaScript.
+          </p>
+          <p style="padding-block: 10px">
+            Designed infographics and visual content for student and community
+            projects.
+          </p>
+          <p style="padding-block: 10px">
+            Completed multiple freelance web projects for local clients and
+            students.
+          </p>
+          <p style="padding-block: 10px">
+            Managed client communication, project delivery, and revisions
+            independently.
+          </p>
+          <p style="padding-block: 10px">
+            Delivered user-friendly websites and received consistent positive
+            client feedback.
+          </p>
+          <h3
+            style="
+              padding: 25px;
+              font-weight: 500;
+              color: #ffffff;
+              animation: show-title 5s linear;
+              animation-timeline: view();
+              animation-range: entry 0% cover 40%;
+            "
+          >
+            Let’s connect and share ideas about technology, development, and
+            innovation
+            <i style="color: #099747" class="bi bi-rocket-takeoff"></i>
+          </h3>
+        </div>
+      </div>
     </div>
 
     <div class="aboutpage">
-        <a href="#" class="a-brand">About me <i style="color: #099747;" class="bi bi-person-check-fill"></i></a>
-        <div class="about-contents">
-            <div class="a-hero">
-                <img src="/images/hero2.jpeg" alt="">
-            </div>
-            <div class="a-title">
-                <h3>IT Student | Aspiring Frontend Developer</h3>
-                <p>Hello I am Eric Salazar an aspiring front end developer and Software engineer, I love and enjoy coding so much. This is not just coding, It’s life.</p>
-                <span> <i style="color: #099747;" class="bi bi-telephone"></i> Phone : +63 994-455-4664</span> <span> <i style="color: #099747;" class="bi bi-envelope-at"></i> Email : Ericsalazar@gmail.com</span>
-                <span> <i style="color: #099747;" class="bi bi-house-door"></i> Address : Moises Padilla, Negros Occidental</span> <span><i style="color: #099747;" class="bi bi-mortarboard"></i> College level : 2nd year college</span>
-               
-            </div>
+      <a href="#" class="a-brand" style="padding-block: 15px"
+        >About me <i style="color: #099747" class="bi bi-person-check-fill"></i
+      ></a>
+      <div class="about-contents">
+        <div class="a-hero">
+          <img src="/images/hero2.jpeg" alt="" />
         </div>
-        <div class="about-footer">
-            <a href="#" class="af-brand">Interest <i style="color: #099747;" class="bi bi-star"></i></a>
-            <div class="af-contents">
-                <div class="af-items" style="animation: afx 5s linear; animation-timeline: view(); animation-range: entry 0% cover 40%;">
-                    <h3><i style="color: red; padding-right: 5px;" class="bi bi-youtube"></i> Watching Movies</h3>
-                </div>
-                <div class="af-items" style="animation: afy; animation-timeline: view(); animation-range: entry 0% cover 40%;">
-                    <h3><i style="color: gray; padding-right: 5px;" class="bi bi-laptop"></i> Coding with who?</h3>
-                </div>
-                <div class="af-items" style="animation: afx 5s linear; animation-timeline: view(); animation-range: entry 0% cover 40%;">
-                    <h3><i style="color: orangered; padding-right: 5px;" class="bi bi-music-note-beamed"></i> Listening to music</h3>
-                </div>
-                <div class="af-items" style="animation: afy; animation-timeline: view(); animation-range: entry 0% cover 40%;">
-                    <h3><i style="color: blue; padding-right: 5px;" class="bi bi-joystick"></i> Playing Games</h3>
-                </div>
-                <div class="af-items" style="animation: afx 5s linear; animation-timeline: view(); animation-range: entry 0% cover 40%;">
-                    <h3><i style="color: #099747; padding-right: 5px;" class="bi bi-car-front-fill"></i> Nature Trip</h3>
-                </div>
-                <div class="af-items" style="animation: afy; animation-timeline: view(); animation-range: entry 0% cover 40%;">
-                    <h3><i style="color: yellow; padding-right: 5px;" class="bi bi-pencil"></i> Drawing/Sketch</h3>
-                </div>
-            </div>
+        <div class="a-title">
+          <h3>IT Student | Aspiring Frontend Developer</h3>
+          <p>
+            Hello I am Eric Salazar an aspiring front end developer and Software
+            engineer, Studying at Central Philippines State University focusing
+            on frontend development in the web development field.
+          </p>
+          <p>"In The World Full of Variables, Can I Be You're Constant?"</p>
+          <span>
+            <i style="color: #099747" class="bi bi-telephone"></i> Phone : +63
+            994-455-4664</span
+          >
+          <span>
+            <i style="color: #099747" class="bi bi-envelope-at"></i> Email
+            :ericsalazat53@gmail.com</span
+          >
+          <span>
+            <i style="color: #099747" class="bi bi-house-door"></i> Address :
+            Valladolid, Negros Occidental, Philippines</span
+          >
+          <span
+            ><i style="color: #099747" class="bi bi-mortarboard"></i> College
+            level : 3rd year college</span
+          >
+          <p>
+            For Inquiries please contact me or message me in my social accounts,
+            I'm happy to help you out :>
+          </p>
         </div>
+      </div>
+      <div class="about-footer">
+        <a href="#" class="af-brand"
+          >Interest <i style="color: #099747" class="bi bi-star"></i
+        ></a>
+        <div class="af-contents">
+          <div
+            class="af-items"
+            style="
+              animation: afx 5s linear;
+              animation-timeline: view();
+              animation-range: entry 0% cover 40%;
+            "
+          >
+            <h3>
+              <i
+                style="color: red; padding-right: 5px"
+                class="bi bi-youtube"
+              ></i>
+              Watching Movies
+            </h3>
+          </div>
+          <div
+            class="af-items"
+            style="
+              animation: afy;
+              animation-timeline: view();
+              animation-range: entry 0% cover 40%;
+            "
+          >
+            <h3>
+              <i
+                style="color: gray; padding-right: 5px"
+                class="bi bi-laptop"
+              ></i>
+              Coding with who?
+            </h3>
+          </div>
+          <div
+            class="af-items"
+            style="
+              animation: afx 5s linear;
+              animation-timeline: view();
+              animation-range: entry 0% cover 40%;
+            "
+          >
+            <h3>
+              <i
+                style="color: orangered; padding-right: 5px"
+                class="bi bi-music-note-beamed"
+              ></i>
+              Listening to music
+            </h3>
+          </div>
+          <div
+            class="af-items"
+            style="
+              animation: afy;
+              animation-timeline: view();
+              animation-range: entry 0% cover 40%;
+            "
+          >
+            <h3>
+              <i
+                style="color: blue; padding-right: 5px"
+                class="bi bi-joystick"
+              ></i>
+              Playing Games
+            </h3>
+          </div>
+          <div
+            class="af-items"
+            style="
+              animation: afx 5s linear;
+              animation-timeline: view();
+              animation-range: entry 0% cover 40%;
+            "
+          >
+            <h3>
+              <i
+                style="color: #099747; padding-right: 5px"
+                class="bi bi-car-front-fill"
+              ></i>
+              Nature Trip
+            </h3>
+          </div>
+          <div
+            class="af-items"
+            style="
+              animation: afy;
+              animation-timeline: view();
+              animation-range: entry 0% cover 40%;
+            "
+          >
+            <h3>
+              <i
+                style="color: yellow; padding-right: 5px"
+                class="bi bi-pencil"
+              ></i>
+              Drawing/Sketch
+            </h3>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="skill" class="learnpage">
-        <a href="#" class="lbrand">Skills <i style="color: #099747;" class="bi bi-stars"></i></a>
-        <div class="learn-contents">
-            <div class="l-container">
-                <div class="l-items">
-                    <img src="/images/logo-html-5-1536.png" alt="">
-                    <h3>HTML 5</h3>
-                    <span>Two and half months of learning HTML attributes elements and functions.</span>
-                </div>
-                <div class="l-items">
-                    <img src="/images/logo-css-3-1024.png" alt="">
-                    <h3>CSS</h3>
-                    <span>Three months of learning CSS elements creating a visual appealing  designs and responsiveness.</span>
-                </div>
-                <div class="l-items">
-                    <img src="/images/javascript-logo-javascript-icon-transparent-free-png.webp" alt="">
-                    <h3>JAVASCRIPT</h3>
-                    <span>Two month of learning javascript its the most difficult programming language for me but i wont stop learning it.</span>
-                </div>
-                <div class="l-items">
-                    <img src="/images/image-7.png" alt="">
-                    <h3>Tailwind</h3>
-                    <span>Tailwind CSS is particularly popular among developers who value flexibility and speed in building custom designs. It’s widely used in modern web development and integrates seamlessly.</span>
-                </div>
-                <div class="l-items">
-                    <img src="/images/bootstrap-1536.png" alt="">
-                    <h3>Bootstrap</h3>
-                    <span>Currently learning this framework of CSS to make my projects more easier and to keep up in the new era of projects using this framework.</span>
-                </div>
-                <div class="l-items">
-                    <img src="/images/e0nl7ziy1la7bpwj7rsp.png" alt="">
-                    <h3>REACT</h3>
-                    <span>Learning the basics of javascript library REACTjs</span>
-                </div>
-                <div class="l-items">
-                    <img src="/images/nextjs-logo.png" alt="">
-                    <h3>NEXT.js</h3>
-                    <span>Next.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations..</span>
-                </div>
-                <div class="l-items">
-                    <img src="/images/e0nl7ziy1la7bpwj7rsp.png" alt="">
-                    <h3>React Native</h3>
-                    <span>React Native is an open-source framework developed by Facebook for building native-style applications for iOS and Android using JavaScript</span>
-                </div>
-                <div class="l-items">
-                    <img src="/images/figma.png" alt="">
-                    <h3>FIGMA</h3>
-                    <span>UI/UX Designing using FIGMA it's the most used software application that designers commonly used.</span>
-                </div>
-                <div class="l-items">
-                    <img src="/images/wix-website-builder.webp" alt="">
-                    <h3>WIX</h3>
-                    <span>Wix is a powerful, no code website builder that comes equipped with business tools that can help you build something as simple as a personal blog to something as complex as an enterprise-grade hub for your online business.</span>
-                </div>
-            </div>
+      <a href="#" class="lbrand"
+        >Skills <i style="color: #099747" class="bi bi-stars"></i
+      ></a>
+      <div class="learn-contents">
+        <div class="l-container">
+          <div class="l-items">
+            <img src="/images/logo-html-5-1536.png" alt="" />
+            <h3>HTML 5</h3>
+            <span
+              >Two and half months of learning HTML attributes elements and
+              functions.</span
+            >
+          </div>
+          <div class="l-items">
+            <img src="/images/logo-css-3-1024.png" alt="" />
+            <h3>CSS</h3>
+            <span
+              >Three months of learning CSS elements creating a visual appealing
+              designs and responsiveness.</span
+            >
+          </div>
+          <div class="l-items">
+            <img
+              src="/images/javascript-logo-javascript-icon-transparent-free-png.webp"
+              alt=""
+            />
+            <h3>JAVASCRIPT</h3>
+            <span
+              >Two month of learning javascript its the most difficult
+              programming language for me but i wont stop learning it.</span
+            >
+          </div>
+          <div class="l-items">
+            <img src="/images/image-7.png" alt="" />
+            <h3>Tailwind</h3>
+            <span
+              >Tailwind CSS is particularly popular among developers who value
+              flexibility and speed in building custom designs. It’s widely used
+              in modern web development and integrates seamlessly.</span
+            >
+          </div>
+          <div class="l-items">
+            <img src="/images/bootstrap-1536.png" alt="" />
+            <h3>Bootstrap</h3>
+            <span
+              >Currently learning this framework of CSS to make my projects more
+              easier and to keep up in the new era of projects using this
+              framework.</span
+            >
+          </div>
+          <div class="l-items">
+            <img src="/images/e0nl7ziy1la7bpwj7rsp.png" alt="" />
+            <h3>REACT</h3>
+            <span>Learning the basics of javascript library REACTjs</span>
+          </div>
+          <div class="l-items">
+            <img src="/images/php.png" alt="" />
+            <h3>PHP</h3>
+            <span
+              >Commonly used language for my freelance journey, used for
+              assisting my peers and local clients in there project
+              systems</span
+            >
+          </div>
+          <div class="l-items">
+            <img src="/images/mysql.png" alt="" />
+            <h3>MYSQL</h3>
+            <span>Database storing and handling using MYSQL.</span>
+          </div>
+          <div class="l-items">
+            <img src="/images/cordova.webp" alt="" />
+            <h3>Cordova</h3>
+            <span
+              >A Mobile Development Framework used to create mobile application
+              using web technology.</span
+            >
+          </div>
+          <div class="l-items">
+            <img src="/images/nextjs-logo.png" alt="" />
+            <h3>NEXT.js</h3>
+            <span
+              >Next.js is a React framework for building full-stack web
+              applications. You use React Components to build user interfaces,
+              and Next.js for additional features and optimizations..</span
+            >
+          </div>
+          <div class="l-items">
+            <img src="/images/git.png" alt="" />
+            <h3>GIT</h3>
+            <span>Code Versioning Tool for changes or updates</span>
+          </div>
+          <div class="l-items">
+            <img src="/images/e0nl7ziy1la7bpwj7rsp.png" alt="" />
+            <h3>React Native</h3>
+            <span
+              >React Native is an open-source framework developed by Facebook
+              for building native-style applications for iOS and Android using
+              JavaScript</span
+            >
+          </div>
+          <div class="l-items">
+            <img src="/images/chatgpt.webp" alt="" />
+            <h3>ChatGPT</h3>
+            <span
+              >Profficient in using ChatGPT for various tasks such as content
+              creation and coding assistance.</span
+            >
+          </div>
+          <div class="l-items">
+            <img src="/images/copilot.png" alt="" />
+            <h3>Copilot</h3>
+            <span
+              >Profficient in using GitHub Copilot for code completion and
+              suggestions.</span
+            >
+          </div>
+          <div class="l-items">
+            <img src="/images/gemini.png" alt="" />
+            <h3>Gemini</h3>
+            <span
+              >Profficient in using Gemini for various tasks such as ui design
+              references and ideas.</span
+            >
+          </div>
+          <div class="l-items">
+            <img src="/images/figma.png" alt="" />
+            <h3>FIGMA</h3>
+            <span
+              >UI/UX Designing using FIGMA it's the most used software
+              application that designers commonly used.</span
+            >
+          </div>
+          <div class="l-items">
+            <img src="/images/wix-website-builder.webp" alt="" />
+            <h3>WIX</h3>
+            <span
+              >Wix is a powerful, no code website builder that comes equipped
+              with business tools that can help you build something as simple as
+              a personal blog to something as complex as an enterprise-grade hub
+              for your online business.</span
+            >
+          </div>
+          <div class="l-items">
+            <img src="/images/wordpress.webp" alt="" />
+            <h3>Wordpress</h3>
+            <span
+              >A Website Builder used for designing and deploying website that's
+              not require coding.</span
+            >
+          </div>
         </div>
+      </div>
     </div>
     <div id="project" class="projectpage">
-        <a href="#" class="p-brand">Projects <i style="color: #099747;" class="bi bi-patch-check"></i></a>
-        <div class="project-contents">
-            <div class="p-container">
-                <div class="p-items">
-                    <a href="#"> <img src="/images/brodbrew.png" alt=""></a>
-                    <h3>www.BrodBrew.com</h3>
-                    <span>BrodBrew is a website that features philippines best spots that the audience can visits responsive.</span>
-                    <a style="font-size: 18px; color: blue; text-decoration: underline; padding: 10px;" href="https://ericktxy28967.github.io/">Visit here</a>
-                </div>
-                <div class="p-items">
-                    <a href="#"> <img src="/images/MPC.png" alt=""></a>
-                    <h3>MPC GSIM</h3>
-                    <span>Moises Padilla Grading System and Information Management responsive.</span>
-                    <a style="font-size: 18px; color: red; text-decoration: underline; padding: 10px;" href="#">Not Hosted</a>
-                </div>
-                <div class="p-items">
-                    <a href="#"> <img src="/images/shop.co.png" alt=""></a>
-                    <h3>Shop.Co</h3>
-                    <span>E-commerce Website for modern clothes responsive.</span>
-                    <a style="font-size: 18px; color: red; text-decoration: underline; padding: 10px;" href="#">Not Hosted</a>
-                </div>
-                <div class="p-items">
-                    <a href="#"> <img src="images/mealmaster.png" alt=""></a>
-                    <h3>Meal Master</h3>
-                    <span>Meal Master is a Web Based Meal Planning System. Design only</span>
-                    <a style="font-size: 18px; color: blue; text-decoration: underline; padding: 10px;" href="https://www.figma.com/design/RJd3KPCnJiBwAryOBbTyUa/Web-based-Meal-Planning-System?node-id=0-1&t=CDwObVcwv7CgwNAm-1">Visit here</a>
-                </div>
-                <div class="p-items">
-                    <a href="#"> <img src="images/c5.png" alt=""></a>
-                    <h3>Help Hive</h3>
-                    <span>A Charity Application. Design only</span>
-                    <a style="font-size: 18px; color: blue; text-decoration: underline; padding: 10px;" href="https://www.figma.com/design/kCuqdkXi4Rp5jNrrOHSmzu/HelpHive?t=DR6PBPsI2yJzX85R-1">Visit here</a>
-                </div>
-                <div class="p-items">
-                    <a href="#"> <img src="images/c6.png" alt=""></a>
-                    <h3>Cinema Hub</h3>
-                    <span>Movie Application. Design only</span>
-                    <a style="font-size: 18px; color: blue; text-decoration: underline; padding: 10px;" href="https://www.figma.com/design/ApchMZVHRQu8NGkGUE8YsH/Cinema-Hub?node-id=0-1&t=DR6PBPsI2yJzX85R-1">Visit here</a>
-                </div>
-            </div>
+      <a href="#" class="p-brand"
+        >Projects <i style="color: #099747" class="bi bi-patch-check"></i
+      ></a>
+      <div class="project-contents">
+        <div class="p-container">
+          <div class="p-items">
+            <a href="#"> <img src="/images/brodbrew.png" alt="" /></a>
+            <h3>CPSU Moises Padilla Official Campus Website</h3>
+            <span
+              >A responsive website that showcases the campus profile, academic
+              programs, and services. It includes an admin panel for managing
+              content and updates. Built with PHP, Tailwind CSS, and MySQL to
+              ensure modern design, smooth performance, and secure data
+              handling. Built in cooperation with university stakeholders.
+            </span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://cpsu-mpc.infinityfree.me/cpsu-moises-website/public/index.php?i=1"
+              >Visit here</a
+            >
+          </div>
+          <div class="p-items">
+            <a href="#"> <img src="/images/print-n-go.png" alt="" /></a>
+            <h3>Print N Go</h3>
+            <span
+              >A coin-operated printing system that lets users upload documents
+              through a web interface and print them after payment. Built with
+              Raspberry Pi 4, Arduino Nano, Python (Flask), MariaDB, and Apache.
+              Combines hardware control with a simple web-based platform — ideal
+              for campus or public use. Implemented for campus use and
+              evaluation.
+            </span>
+            <a
+              style="
+                font-size: 18px;
+                color: red;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="#"
+              >Not Hosted</a
+            >
+          </div>
+          <div class="p-items">
+            <a href="#"> <img src="/images/foodievend.jpg" alt="" /></a>
+            <h3>Foodievend</h3>
+            <span
+              >A coin-operated vending system that automatically dispenses food
+              items. Built with Arduino UNO and programmed in C++, it uses servo
+              motors and sensors to handle item selection, payment, and
+              dispensing. Ideal for schools or public spaces, this project shows
+              your skills in hardware control and embedded programming. Created
+              as part of a university-led initiative.
+            </span>
+            <a
+              style="
+                font-size: 18px;
+                color: red;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="#"
+              >Not Hosted</a
+            >
+          </div>
+          <div class="p-items">
+            <a href="#"> <img src="/images/mp-centro.jpg" alt="" /></a>
+            <h3>MP-Centro</h3>
+            <span
+              >Commissioned for a fellow student, for a local municipal health
+              center, this web-based appointment system enables patients to book
+              consultations and view available time slots. Developed using PHP,
+              Tailwind CSS, JavaScript, and MySQL, it features a secure admin
+              panel for managing schedules, patient records, and appointment
+              flow. Delivered as a paid freelance project, the system was
+              tailored to streamline healthcare access and improve service
+              coordination at the community level.
+            </span>
+            <a
+              style="
+                font-size: 18px;
+                color: red;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="#"
+              >Not Hosted</a
+            >
+          </div>
+          <div class="p-items">
+            <a href="#"> <img src="/images/cpsu-app.png" alt="" /></a>
+            <h3>CPSU App</h3>
+            <span
+              >A lightweight mobile app for Android that gives students and
+              staff easy access to campus news, office info, and resources.
+              Built with Apache Cordova, HTML, and Vanilla CSS to mirror the
+              CPSU Moises Padilla website.
+            </span>
+            <a
+              style="
+                font-size: 18px;
+                color: red;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="#"
+              >Not Hosted</a
+            >
+          </div>
+          <div class="p-items">
+            <a href="#"> <img src="/images/cpsu-ets.jpg" alt="" /></a>
+            <h3>CPSU Moises Padilla - ETs</h3>
+            <span
+              >A web system that automates scoring and ranking for campus events
+              like contests and pageants. Built with PHP, Tailwind CSS,
+              JavaScript, and MySQL. Organizers can input scores and instantly
+              see results. Delivered as a paid freelance project for a fellow
+              student, the system was tailored to streamline judging and result
+              computation for a specific university event.
+            </span>
+            <a
+              style="
+                font-size: 18px;
+                color: red;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="#"
+              >Not Hosted</a
+            >
+          </div>
+          <div class="p-items">
+            <a href="#"> <img src="/images/cyra-bpms.jpg" alt="" /></a>
+            <h3>Cyra - BPMs</h3>
+            <span
+              >A web system for managing beauty parlor bookings, services, and
+              client records. Customers can book appointments online, while
+              admins handle schedules and data. Built with PHP, Tailwind CSS,
+              JavaScript, and MySQL. Delivered as a paid freelance project for a
+              fellow student, the system was tailored to support small business
+              operations by streamlining appointment scheduling and service
+              management.
+            </span>
+            <a
+              style="
+                font-size: 18px;
+                color: red;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="#"
+              >Not Hosted</a
+            >
+          </div>
+          <div class="p-items">
+            <a href="#"> <img src="images/mealmaster.png" alt="" /></a>
+            <h3>Meal Master</h3>
+            <span
+              >Developed a smart web-based meal planning and recipe management
+              system using HTML, JavaScript, Tailwind CSS. Features include
+              recipe organization, smart grocery list generation, weekly meal
+              scheduling, and user account dashboards etc.
+            </span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.figma.com/design/RJd3KPCnJiBwAryOBbTyUa/Web-based-Meal-Planning-System?node-id=0-1&t=CDwObVcwv7CgwNAm-1"
+              >Visit here</a
+            >
+          </div>
+          <div class="p-items">
+            <a href="#"> <img src="images/c5.png" alt="" /></a>
+            <h3>Help Hive</h3>
+            <span>A Charity Application. Design only</span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.figma.com/design/kCuqdkXi4Rp5jNrrOHSmzu/HelpHive?t=DR6PBPsI2yJzX85R-1"
+              >Visit here</a
+            >
+          </div>
+          <div class="p-items">
+            <a href="#"> <img src="images/c6.png" alt="" /></a>
+            <h3>Cinema Hub</h3>
+            <span>Movie Application. Design only</span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.figma.com/design/ApchMZVHRQu8NGkGUE8YsH/Cinema-Hub?node-id=0-1&t=DR6PBPsI2yJzX85R-1"
+              >Visit here</a
+            >
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="certpage">
-        <a href="#" class="c-brand">Certificates <i style="color: #099747;" class="bi bi-award"></i></a>
-        <div class="cert-contents">
-            <div class="cert-container">
-                <div class="cert-items">
-                    <a href="#"> <img src="images/c1.png" alt=""></a>
-                    <h3>Foundations of Web Development: CSS, Bootstrap, JS, React</h3>
-                    <span>Foundations of Web Development: CSS, Bootstrap, JS, React Certificate by PROPER DOT INSTITUTE.</span>
-                    <a style="font-size: 18px; color: blue; text-decoration: underline; padding: 10px;" href="https://www.udemy.com/certificate/UC-143b2cb2-9647-4a84-9cf9-1407aa1366da/">See Certificate</a>
-                </div>
-                <div class="cert-items">
-                    <a href="#"> <img src="images/c2.png" alt=""></a>
-                    <h3>Python Development and Python Programming Fundamentals</h3>
-                    <span>Python Development and Python Programming Fundamentals Certificate by MTF INSTITUTE.</span>
-                    <a style="font-size: 18px; color: blue; text-decoration: underline; padding: 10px;" href="https://www.udemy.com/certificate/UC-d1e1df66-b73d-47a8-8005-cfc3f1833ed6/">See Certificate</a>
-                </div>
-                <div class="cert-items">
-                    <a href="#"> <img src="images/c3.png" alt=""></a>
-                    <h3>Google Developer Groups Certificate of Attendance</h3>
-                    <span>Google Developer Groups Certificate GDG BACOLOD.</span>
-                    <a style="font-size: 18px; color: blue; text-decoration: underline; padding: 10px;" href="https://gdg.omsimos.com/event/devfest-24/cert?id=_woVJ1N2R4">See Certificate</a>
-                </div>
-                <div class="cert-items">
-                    <a href="#"> <img src="images/c4.png" alt=""></a>
-                    <h3>Fundamentals of Community Organizing</h3>
-                    <span>Fundamentals of Community Organizing Certificate by ELEARN.E-EXTENSION.</span>
-                    <a style="font-size: 18px; color: blue; text-decoration: underline; padding: 10px;" href="https://elearn.e-extension.gov.ph/mod/customcert/view.php?id=900&downloadown=1">See Certificate</a>
-                </div>
-                <div class="cert-items">
-                    <a href="#"> <img src="images/c7.png" alt=""></a>
-                    <h3>Graphic Design Essentials</h3>
-                    <span>Graphic Design Essentials Certificate by CANVA.</span>
-                    <a style="font-size: 18px; color: blue; text-decoration: underline; padding: 10px;" href="https://www.canva.com/design-school/certification-award/af2b5391-0fc2-4940-ae0f-7bf028187af1">See Certificate</a>
-                </div>
-                <div class="cert-items">
-                    <a href="#"> <img src="images/c8.png" alt=""></a>
-                    <h3>OutLook 101: Zero to Hero Certificate - Microsoft Essentials</h3>
-                    <span>Microsoft Skills for jobs OutLook 101: Zero to Hero by MICROSOFT.</span>
-                </div>
-                <div class="cert-items">
-                    <a href="#"> <img src="images/c9.png" alt=""></a>
-                    <h3>EF SET English Certificate</h3>
-                    <span>The EF SET score is calculated as an average of the skill section scores by EF SET.</span>
-                </div>
-            </div>
+      <a href="#" class="c-brand"
+        >Certificates <i style="color: #099747" class="bi bi-award"></i
+      ></a>
+      <div class="cert-contents">
+        <div class="cert-container">
+          <div class="cert-items">
+            <a href="#">
+              <img
+                src="images/Blockchain Fundamentals - How it Works (Principles, Trust and Transparency).png"
+                alt=""
+            /></a>
+            <h3>
+              Blockchain Fundamentals - How it Works (Principles, Trust and
+              Transparency)
+            </h3>
+            <span
+              >Blockchain Fundamentals - How it Works (Principles, Trust and
+              Transparency) by Department of Information and Communications
+              Technology - Philippines</span
+            >
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.linkedin.com/in/eric-john-solinap-840462325/overlay/Certifications/538059666/treasury/?profileId=ACoAAFIdeDABHZLGmp5Ys2v9N_8iWULJ66KCYY0"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#">
+              <img
+                src="images/Google Developer Groups Festival 2025.png"
+                alt=""
+            /></a>
+            <h3>Google Developer Groups Festival 2025</h3>
+            <span>Google Developer Groups Festival 2025 by Google</span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.linkedin.com/in/eric-john-solinap-840462325/overlay/Certifications/262625999/treasury/?profileId=ACoAAFIdeDABHZLGmp5Ys2v9N_8iWULJ66KCYY0"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#">
+              <img src="images/Business Analytics with Excel.png" alt=""
+            /></a>
+            <h3>Business Analytics with Excel</h3>
+            <span>Business Analytics with Excel by Microsoft</span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI1Njc0IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTg2NDcwOF8xMDE1NzE4OV8xNzcxNDk3MTA4NTQ0LnBuZyIsInVzZXJuYW1lIjoiRVJJQyBKT0hOIFMuIFNPTElOQVAifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F8717%2FBusiness-Analytics-with-Excel_%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1562411885378270566&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVrzIzTDXMDfUPNkiyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDACET%2BARBAAAA"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#">
+              <img
+                src="images/Create Engaging Video with Google Vids.png"
+                alt=""
+            /></a>
+            <h3>Create Engaging Video with Google Vids</h3>
+            <span
+              >Create Engaging Video with Google Vids by Google Cloud
+              Security</span
+            >
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI0NzY5IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTg2NDEyM18xMDE1NzE4OV8xNzcxNDg4NDA3NjI0LnBuZyIsInVzZXJuYW1lIjoiRVJJQyBKT0hOIFMuIFNPTElOQVAifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F7758%2FCreate-Engaging-Video-with-Google-Vids%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1562411885378270566&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVryjyqCwNqXANNkiyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDANZE85JBAAAA"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#">
+              <img
+                src="images/Get Started with Databricks for Machine Learning.png"
+                alt=""
+            /></a>
+            <h3>Get Started with Databricks for Machine Learning</h3>
+            <span
+              >Get Started with Databricks for Machine Learning by
+              Databricks</span
+            >
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI1MDM1IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTg2Mzk3OV8xMDE1NzE4OV8xNzcxNDg2NTkwNDc1LnBuZyIsInVzZXJuYW1lIjoiRVJJQyBKT0hOIFMuIFNPTElOQVAifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F8011%2FGet-Started-with-Databricks-for-Machine-Learning%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1562411885378270566&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FV93IJ93Vxz3MONkiyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAOOWDf5BAAAA"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#">
+              <img src="images/GitHub Copilot Fundamentals.png" alt=""
+            /></a>
+            <h3>GitHub Copilot Fundamentals</h3>
+            <span>GitHub Copilot Fundamentals by Microsoft</span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI0ODc2IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTg2MzQ2OF8xMDE1NjE0MV8xNzcxNDc5NTIyNzgyLnBuZyIsInVzZXJuYW1lIjoiRVJJQyBKT0hOIFMuIFNPTElOQVAifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F7867%2FGitHub-Copilot-Fundamentals%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1562411885378270566&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVrwhNdEsLiCgJNkiyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAKbhxZBBAAAA"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#">
+              <img
+                src="images/Exploring Data Transformation with Google Cloud.png"
+                alt=""
+            /></a>
+            <h3>Exploring Data Transformation with Google Cloud</h3>
+            <span
+              >Exploring Data Transformation with Google Cloud by Google Cloud
+              Security</span
+            >
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI0MTk0IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTg2MzI0MV8xMDE1NjM4N18xNzcxNDc5NDUwMTk2LnBuZyIsInVzZXJuYW1lIjoiRVJJQyBKT0hOIFMuIFNPTElOQVAifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F7128%2FExploring-Data-Transformation-with-Google-Cloud%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1562411885378270566&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVT0wzN%2FEtDC4JNkiyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAMGYqoVBAAAA"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#">
+              <img src="images/Introduction to Prompt Engineering.png" alt=""
+            /></a>
+            <h3>Introduction to Prompt Engineering</h3>
+            <span>Introduction to Prompt Engineering by Simplilearn</span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI0MjgzIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTg2Mjc2N18xMDE1NjM4N18xNzcxNDYwMzg1MzEzLnBuZyIsInVzZXJuYW1lIjoiRVJJQyBKT0hOIFMuIFNPTElOQVAifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F7216%2FIntroduction-to-Prompt-Engineering%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1562411885378270566&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVd892qswLTjQPMkiyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAHc0wnJBAAAA"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#">
+              <img src="images/Prompt Engineering Applications.png" alt=""
+            /></a>
+            <h3>Prompt Engineering Applications</h3>
+            <span>Prompt Engineering Applications by Simplilearn</span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI0ODcwIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTg2Mjc1NV8xMDE1NjM4N18xNzcxNDU5ODIxOTIzLnBuZyIsInVzZXJuYW1lIjoiRVJJQyBKT0hOIFMuIFNPTElOQVAifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F7836%2FPrompt-Engineering-Application%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1562411885378270566&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVL0ovNE4yKjULMkiyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAEMT1GNBAAAA"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#"> <img src="images/c1.png" alt="" /></a>
+            <h3>
+              Artificial Intelligence for Education: Unlocking the Power of
+              NotebookLM
+            </h3>
+            <span
+              >Artificial Intelligence for Education: Unlocking the Power of
+              NotebookLM by Department of Information and Communications
+              Technology</span
+            >
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.linkedin.com/in/eric-john-solinap-840462325/overlay/Certifications/1930881274/treasury/?profileId=ACoAAFIdeDABHZLGmp5Ys2v9N_8iWULJ66KCYY0"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#">
+              <img src="images/n8n Course No Code AI Agent Builder.png" alt=""
+            /></a>
+            <h3>n8n Course: No Code AI Agent Builder</h3>
+            <span>n8n Course: No Code AI Agent Builder by Simplilearn</span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI0OTUxIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTg2MjY0Ml8xMDE1NDcyMl8xNzcxNDU1ODgyNzk4LnBuZyIsInVzZXJuYW1lIjoiRVJJQyBKT0hOIFMuIFNPTElOQVAifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F7958%2Fn8n-Course%3A-No-Code-AI-Agent-Builder%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1562411885378270566&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVD853DXcq9DcMMkiyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAMm9EUtBAAAA"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#">
+              <img
+                src="images/Get Started with SQL Analytics and BI on Databricks.png"
+                alt=""
+            /></a>
+            <h3>Get Started with SQL Analytics and BI on Databricks</h3>
+            <span
+              >Get Started with SQL Analytics and BI on Databricks by
+              Databricks</span
+            >
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI1MDM2IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTg2MjYyNl8xMDE1NjE0MV8xNzcxNDU1ODc5NjEzLnBuZyIsInVzZXJuYW1lIjoiRVJJQyBKT0hOIFMuIFNPTElOQVAifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F8012%2FGet-Started-with-SQL-Analytics-and-BI-on-Databricks%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1562411885378270566&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVjyz2SY8K8zMMMkiyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAB3i8TVBAAAA"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#">
+              <img src="images/Gemini in Google Drive.png" alt=""
+            /></a>
+            <h3>Gemini in Google Drive</h3>
+            <span>Gemini in Google Drive by Google Cloud Skills Boost</span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI0NTUwIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTg2MjUxN18xMDE1NjE0MV8xNzcxNDQ1MzYwNTY1LnBuZyIsInVzZXJuYW1lIjoiRVJJQyBKT0hOIFMuIFNPTElOQVAifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F7508%2FGemini-in-Google-Drive%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1562411885378270566&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVt0hOcqu0SA8IMkiyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDANZ94iZBAAAA"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#">
+              <img src="images/Generative AI for Beginner.png" alt=""
+            /></a>
+            <h3>Generative AI for Beginner</h3>
+            <span>Generative AI for Beginner by Simplilearn</span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI0NzE1IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTg2MjE1Ml8xMDE1NDcyMl8xNzcxNDQxMTAzMDMyLnBuZyIsInVzZXJuYW1lIjoiRVJJQyBKT0hOIFMuIFNPTElOQVAifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F7721%2FGenerative-AI-for-Beginners%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1562411885378270566&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVzwlOzwsPTvYOMkiyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDALMMIoJBAAAA"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#"> <img src="images/c1.png" alt="" /></a>
+            <h3>Foundations of Web Development: CSS, Bootstrap, JS, React</h3>
+            <span
+              >Foundations of Web Development: CSS, Bootstrap, JS, React
+              Certificate by PROPER DOT INSTITUTE.</span
+            >
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.udemy.com/certificate/UC-143b2cb2-9647-4a84-9cf9-1407aa1366da/"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#"> <img src="images/c2.png" alt="" /></a>
+            <h3>Python Development and Python Programming Fundamentals</h3>
+            <span
+              >Python Development and Python Programming Fundamentals
+              Certificate by MTF INSTITUTE.</span
+            >
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.udemy.com/certificate/UC-d1e1df66-b73d-47a8-8005-cfc3f1833ed6/"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#">
+              <img
+                src="images/Cyber Security Awareness Certificate by UDEMY..jpg"
+                alt=""
+            /></a>
+            <h3>Cyber Security Awareness</h3>
+            <span>Cyber Security Awareness Certificate by UDEMY.</span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.udemy.com/certificate/UC-55e9d31a-06f3-457b-b935-4d55749be7fa/"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#"> <img src="images/c3.png" alt="" /></a>
+            <h3>
+              Google Developer Group Bacolod – Google Dev-Fest Bacolod
+              Participant (2024)
+            </h3>
+            <span>Google Developer Groups Certificate GDG BACOLOD.</span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://gdg.omsimos.com/event/devfest-24/cert?id=_woVJ1N2R4"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#"> <img src="images/c4.png" alt="" /></a>
+            <h3>Developing Designs for User Experience</h3>
+            <span>User Experience Development by TESDA.</span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://e-tesda.gov.ph/mod/customcert/view.php?id=63484&downloadown=1"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#"> <img src="images/c4.png" alt="" /></a>
+            <h3>Fundamentals of Community Organizing</h3>
+            <span
+              >Fundamentals of Community Organizing Certificate by
+              ELEARN.E-EXTENSION.</span
+            >
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://elearn.e-extension.gov.ph/mod/customcert/view.php?id=900&downloadown=1"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#">
+              <img
+                src="images/Three Days Training of Digital Farming.png"
+                alt=""
+            /></a>
+            <h3>Three Days Training of Digital Farming</h3>
+            <span
+              >Three Days Training of Digital Farming Certificate by ATI
+              Philippines.</span
+            >
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href=""
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#"> <img src="images/c7.png" alt="" /></a>
+            <h3>Graphic Design Essentials</h3>
+            <span>Graphic Design Essentials Certificate by CANVA.</span>
+            <a
+              style="
+                font-size: 18px;
+                color: blue;
+                text-decoration: underline;
+                padding: 10px;
+              "
+              href="https://www.canva.com/design-school/certification-award/af2b5391-0fc2-4940-ae0f-7bf028187af1"
+              >See Certificate</a
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#"> <img src="images/c8.png" alt="" /></a>
+            <h3>
+              OutLook 101: Zero to Hero Certificate - Microsoft Essentials
+            </h3>
+            <span
+              >Microsoft Skills for jobs OutLook 101: Zero to Hero by
+              MICROSOFT.</span
+            >
+          </div>
+          <div class="cert-items">
+            <a href="#"> <img src="images/c9.png" alt="" /></a>
+            <h3>EF SET English Certificate</h3>
+            <span
+              >The EF SET score is calculated as an average of the skill section
+              scores by EF SET.</span
+            >
+          </div>
         </div>
+      </div>
     </div>
 
-    <div class="contactpage">
-        <a href="#" class="c-brand">Message me <i style="color: #099747;" class="bi bi-envelope-check"></i></a>
-        <div class="contact-contents">
-            <div class="contact-container">
-                <div class="c-items">
-                    <input type="email" placeholder=" Email" required>
-                    <input type="address" placeholder=" Address" required>
-                    <input type="number" placeholder=" Phone number" required>
-                    <input style="width: 100%; height: 130px;" type="text" placeholder=" Message here" required>
-                    <a href="#" type="submit" style="font-size: 18px; padding: 20px; margin: 12px; background-color: rgb(185, 6, 6); border-radius: 12px;">Error <i style="color: #FFFFFF;" class="bi bi-send-check"></i></a>
-                    <span style="text-align: center; font-size: 18px; margin-top: 5px;">// Under maintenance </span>
-                </div>
-            </div>
+    <div id="contact" class="contactpage">
+      <a href="#" class="c-brand"
+        >Message me <i style="color: #099747" class="bi bi-envelope-check"></i
+      ></a>
+      <div class="contact-contents">
+        <div class="contact-container">
+          <div class="c-items">
+            <input type="email" placeholder=" Email" required />
+            <input type="address" placeholder=" Address" required />
+            <input type="number" placeholder=" Phone number" required />
+            <input
+              style="width: 100%; height: 130px"
+              type="text"
+              placeholder=" Message here"
+              required
+            />
+            <a
+              href="#"
+              type="submit"
+              style="
+                font-size: 18px;
+                padding: 20px;
+                margin: 12px;
+                background-color: rgb(185, 6, 6);
+                border-radius: 12px;
+              "
+              >Error <i style="color: #ffffff" class="bi bi-send-check"></i
+            ></a>
+            <span style="text-align: center; font-size: 18px; margin-top: 5px"
+              >// Under maintenance
+            </span>
+          </div>
         </div>
+      </div>
     </div>
     <div class="footerpage">
-        <div class="footer-contents">
-            <div class="f-container">
-                <div class="f-items">
-                    <a href="#" class="brand"> <img src="images/elogo.png" alt="">
-                        <p>Eric <span style="color: #099747;">Salazar</span></p>
-                    </a>
-                    <span style="padding: 10px;">This is my portfolio kindly contact me for details</span>
-                </div>
-                <div class="f-items" style="gap: 5px;">
-                    <h3>Follow me</h3>
-                    <a style="font-weight: 500; color: blue;" href="https://www.facebook.com/share/16KSNkvVSM/"><span style="padding-top: 10px;">Fb: Erick Salazar <i style="color: blue;" class="bi bi-facebook"></i></span></a>
-                    <span>Github: Ericktxy28967 <i style="color: #fafafa;" class="bi bi-github"></i></span>
-                    <span>IG: younjung_pf <i style="color: orangered;" class="bi bi-instagram"></i></span>
-                </div>
-                <div class="f-items" style="gap: 2px;">
-                    <h3>Help Center</h3>
-                    <span>FAQs</span>
-                    <span>Customer service</span>
-                </div>
-                <div class="f-items">
-                    <h3>@Allrights Reserved 2025</h3>
-                </div>
-            </div>
+      <div class="footer-contents">
+        <div class="f-container">
+          <div class="f-items">
+            <a href="#" class="brand">
+              <img src="images/elogo.png" alt="" />
+              <p>Eric <span style="color: #099747">Salazar</span></p>
+            </a>
+            <span style="padding: 10px"
+              >This is my portfolio kindly contact me for details</span
+            >
+          </div>
+          <div class="f-items" style="gap: 5px">
+            <h3>Follow me</h3>
+            <a
+              style="font-weight: 500; color: #099747"
+              href="https://www.facebook.com/share/16KSNkvVSM/"
+              ><span style="padding-top: 10px"
+                >Fb: Erick Salazar
+                <i style="color: #fafafa" class="bi bi-facebook"></i></span
+            ></a>
+            <a style="font-weight: 500; color: #099747" href="#"
+              ><span style="padding-top: 10px"
+                >LinkedIn: Erick John Solinap
+                <i style="color: #fafafa" class="bi bi-linkedin"></i></span
+            ></a>
+            <a style="font-weight: 500; color: #099747" href="#" href="#"
+              ><span
+                >Github: Ericktxy28967
+                <i style="color: #fafafa" class="bi bi-github"></i></span
+            ></a>
+            <a
+              style="font-weight: 500; color: #099747"
+              href="#"
+              href="#"
+              href="#"
+              ><span
+                >IG: younjung_pf
+                <i style="color: white" class="bi bi-instagram"></i></span
+            ></a>
+          </div>
+          <div class="f-items" style="gap: 2px">
+            <h3>Help Center</h3>
+            <span>FAQs</span>
+            <span>Customer service</span>
+          </div>
+          <div class="f-items">
+            <h3>@Allrights Reserved 2025</h3>
+          </div>
         </div>
+      </div>
     </div>
     <script>
-        function toggleMenu() {
-            const menu = document.querySelector('.menu');
-            menu.classList.toggle('active');
-        }
+      function toggleMenu() {
+        const menu = document.querySelector(".menu");
+        menu.classList.toggle("active");
+      }
     </script>
-</body>
+  </body>
 </html>
