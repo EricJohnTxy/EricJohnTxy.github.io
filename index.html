@@ -1270,6 +1270,22 @@
         const menu = document.querySelector(".menu");
         menu.classList.toggle("active");
       }
+
+      // Close menu when clicking on a menu item
+      document.querySelectorAll(".menu a").forEach((link) => {
+        link.addEventListener("click", () => {
+          document.querySelector(".menu").classList.remove("active");
+        });
+      });
+
+      // Close menu when clicking outside the sidebar
+      document.addEventListener("click", (e) => {
+        const menu = document.querySelector(".menu");
+        const hamburger = document.querySelector(".hamburger");
+        if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
+          menu.classList.remove("active");
+        }
+      });
     </script>
   </body>
 </html>
